@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="index.js"></script>
+    <title>Challenge</title>
+</head>
+<body>
+    <main>
+        <div class="parent">
+            <div class="div1">
+                <img src="logo3.png" id="logo">
+            </div>
+            <div class="div2">
+                <textarea class="inputUser" placeholder="Ingresar texto" id="inputUser"></textarea>
+            </div>
+            <div class="div3">
+                <button class="encriptar" onclick="encriptarTexto()">Encriptar</button>
+                <button class="encriptar" onclick="desencriptarTexto()">Desencriptar</button>
+            </div>
+            <div class="div4">
+                <div id="sinTexto">
+                    <img src="Muñeco.png" class="muneco">
+                    <p class="p1">Ningún mensaje fue encontrado</p>
+                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+                <div id="conTexto">
+                    <p id="outputUser"></p>
+                    <button class="copiar" id="copiar" onclick="copiarTexto()">Copiar Texto</button>
+                </div>
+        </div>
+    </main>
+    <footer>
+        <p>Sistema encriptador de mensajes, creado por Gabriel Vento.</p>
+    </footer>
+</body>
+</html>
